@@ -44,3 +44,6 @@ for birthday in birthdays_list:
 
 # 4. Send the letter generated in step 3 to that person's email address.
         send_birthday_wish_mail(receiver_email=birthday["email"], letter_wishes=latest_letter)
+        print("complete1")
+        
+print("complete2")
